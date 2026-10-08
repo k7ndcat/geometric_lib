@@ -1,4 +1,4 @@
-def area(a:float):
+def area(a:float) -> float:
     """
     Вычисляет площадь квадрата по длине его стороны.
 
@@ -14,7 +14,7 @@ def area(a:float):
     """
     return a * a
 
-def perimeter(a:float):
+def perimeter(a:float) -> float:
     """
     Вычисляет периметр квадрата по длине его стороны.
 
