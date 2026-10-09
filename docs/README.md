@@ -266,3 +266,18 @@ def perimeter(a: float) -> float
 
   8
 
+# История коммитов
+
+```text
+fc76766 (HEAD -> main, origin/main, origin/HEAD) redact return in docs
+e73506a redact readme.md
+5e63b64 redact square.py and circle.py
+17eea73 make documentation by pydoc-markdown
+2bdcb63 edit doc square.py
+31a20da Add gitignore
+755de27 Add triangle.py and rectangle.py, add documentation for 4 files
+ba1081b Delete .DS_Store
+a6f2abe добавлена документация к функциям из файла square и circle
+| * 86edb1c (origin/release) L-05: Update Docs. Add user agreement info
+```
+
