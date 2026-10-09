@@ -39,7 +39,11 @@ def area(r: float) -> float
 
 **Example**:
 
-  >>> area(2)
+  area(2)
+  
+
+**Returns**:
+
   12.566370614359172
 
 <a id="circle.perimeter"></a>
@@ -64,7 +68,11 @@ def perimeter(r: float) -> float
 
 **Example**:
 
-  >>> perimeter(2)
+  perimeter(2)
+  
+
+**Returns**:
+
   12.566370614359172
 
 <a id="triangle"></a>
@@ -95,7 +103,11 @@ def perimeter(a: float, b: float, c: float) -> float
 
 **Example**:
 
-  >>> perimeter(1, 1, 1)
+  perimeter(1, 1, 1)
+  
+
+**Returns**:
+
   3
 
 <a id="triangle.area"></a>
@@ -121,7 +133,11 @@ def area(a: float, h: float) -> float
 
 **Example**:
 
-  >>> area(1, 2)
+  area(1, 2)
+  
+
+**Returns**:
+
   1.0
 
 <a id="rectangle"></a>
@@ -151,7 +167,11 @@ def area(a: float, b: float) -> float
 
 **Example**:
 
-  >>> area(3, 4)
+  area(3, 4)
+  
+
+**Returns**:
+
   12
 
 <a id="rectangle.perimeter"></a>
@@ -162,8 +182,7 @@ def area(a: float, b: float) -> float
 def perimeter(a: float, b: float) -> float
 ```
 
-Считает периметр прямоу
-гольника.
+Считает периметр прямоугольника.
 
 **Arguments**:
 
@@ -178,7 +197,11 @@ def perimeter(a: float, b: float) -> float
 
 **Example**:
 
-  >>> perimeter(3, 4)
+  perimeter(3, 4)
+  
+
+**Returns**:
+
   14
 
 <a id="square"></a>
@@ -207,7 +230,11 @@ def area(a: float) -> float
 
 **Example**:
 
-  >>> area(2)
+  area(2)
+  
+
+**Returns**:
+
   4
 
 <a id="square.perimeter"></a>
@@ -232,6 +259,10 @@ def perimeter(a: float) -> float
 
 **Example**:
 
-  >>> perimeter(2)
+  perimeter(2)
+  
+
+**Returns**:
+
   8
 

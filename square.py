@@ -8,7 +8,9 @@ def area(a: float) -> float:
         float: площадь квадрата.
 
     Example:
-        >>> area(2)
+        area(2)
+
+    Return:
         4
     """
     return a * a
@@ -24,7 +26,9 @@ def perimeter(a: float) -> float:
         float: периметр квадрата.
 
     Example:
-        >>> perimeter(2)
+        perimeter(2)
+
+    Return:
         8
     """
     return 4 * a

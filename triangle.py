@@ -10,10 +10,13 @@ def perimeter(a: float, b: float, c: float) -> float:
         float: периметр
 
     Example:
-        >>> perimeter(1, 1, 1)
+        perimeter(1, 1, 1)
+
+    Return:
         3
     """
     return a + b + c
+
 
 def area(a: float, h: float) -> float:
     """Считает площадь треугольника по стороне и высоте.
@@ -26,8 +29,9 @@ def area(a: float, h: float) -> float:
         float: площадь
 
     Example:
-        >>> area(1, 2)
+        area(1, 2)
+
+    Return:
         1.0
     """
     return (a * h) / 2
-

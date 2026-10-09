@@ -9,14 +9,16 @@ def area(a: float, b: float) -> float:
         float: площадь
 
     Example:
-        >>> area(3, 4)
+        area(3, 4)
+
+    Return:
         12
     """
     return a * b
 
+
 def perimeter(a: float, b: float) -> float:
-    """Считает периметр прямоу
-    гольника.
+    """Считает периметр прямоугольника.
 
     Args:
         a (float): длина
@@ -26,9 +28,9 @@ def perimeter(a: float, b: float) -> float:
         float: периметр
 
     Example:
-        >>> perimeter(3, 4)
+        perimeter(3, 4)
+
+    Return:
         14
     """
     return 2 * (a + b)
-
-
