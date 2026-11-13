@@ -1,0 +1,29 @@
+name: Geometric lib tests
+
+on: [push]
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    name: Tests on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+
+      - name: Run unit tests
+        run: python -m unittest discover -s . -p "test*.py" -v
+
